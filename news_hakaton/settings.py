@@ -129,3 +129,5 @@ STATIC_URL = '/static/'
 APPEND_SLASH = False
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+django_heroku.settings(locals())
